@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
-import { Input } from '@/components/ui/input'
 
 export default function Component() {
   return (
@@ -26,7 +25,6 @@ export default function Component() {
           </Link>
         </Button>
       </div>
-      <Input placeholder="your address goes here"></Input>
       {/* Floating elements for visual interest */}
       <div className="absolute top-10 left-10 w-20 h-20 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
       <div className="absolute top-40 right-20 w-32 h-32 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
