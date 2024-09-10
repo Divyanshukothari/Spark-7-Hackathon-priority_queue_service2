@@ -57,7 +57,7 @@ export default function DarkPDFViewer() {
 
         {!loading && (
           <iframe
-            src="https://gateway.pinata.cloud/ipfs/QmSXkKWF9HaejJWQ5M1tPbz985BnuMNYjKHQpwLi6XMcve"
+            src="https://gray-worried-otter-123.mypinata.cloud/ipfs/QmbRbyQVoHGxajN8eV44WYN4HCMbgJrAiihNREmzgzCCA7"
             title="PDF Document"
             className="rounded-lg shadow-lg"
             style={{ width: '100%', height: '100vh' }}
