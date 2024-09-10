@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
+import { Input } from '@/components/ui/input'
 
 export default function Component() {
   return (
@@ -17,7 +18,7 @@ export default function Component() {
         <Button asChild className="text-lg px-10 py-4 bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
           <Link href="/client_fetch">
             <span className="flex items-center">
-              Get Started
+              Enter your Address <Input placeholder="your address goes here"></Input>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
